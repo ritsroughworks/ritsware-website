@@ -9,7 +9,7 @@ export default function CTAWork() {
             Share a brief about your environment and challenges — we’ll outline an approach and expected impact.
           </p>
           <div className="mt-6">
-            <a href="/contact" className="px-6 py-3 rounded-md text-white bg-gradient-to-r from-rits-usaBlue to-rits-mutedRed">Get in touch</a>
+            <Link to="/contact" className="px-6 py-3 rounded-md text-white bg-gradient-to-r from-rits-usaBlue to-rits-mutedRed">Get in touch</Link>
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ export default function CaseStudiesPreview() {
             ))}
           </div>
           <div className="mt-4">
-            <a href="/work" className="text-sm" style={{ color: "var(--text-muted)" }}>View all case studies →</a>
+            <Link to="/work" className="text-sm" style={{ color: "var(--text-muted)" }}>View all case studies →</Link>
           </div>
         </div>
       </div>

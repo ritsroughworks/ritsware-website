@@ -9,7 +9,7 @@ export default function CTAService() {
             Tell us about your challenge and we’ll propose a tailored approach — from prototype to deployment.
           </p>
           <div className="mt-6">
-            <a href="/contact" className="px-6 py-3 rounded-md text-white bg-gradient-to-r from-rits-usaBlue to-rits-mutedRed">Get a consultation</a>
+            <Link to="/contact" className="px-6 py-3 rounded-md text-white bg-gradient-to-r from-rits-usaBlue to-rits-mutedRed">Get a consultation</Link>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ export default function CTAAbout() {
             If you’re ready to simplify complex processes or explore a custom solution, let’s talk. We partner closely with teams to deliver high-impact products.
           </p>
           <div className="mt-6">
-            <a href="/contact" className="px-6 py-3 rounded-md text-white bg-gradient-to-r from-rits-usaBlue to-rits-mutedRed">Contact the team</a>
+            <Link to="/contact" className="px-6 py-3 rounded-md text-white bg-gradient-to-r from-rits-usaBlue to-rits-mutedRed">Contact the team</Link>
           </div>
         </div>
       </div>

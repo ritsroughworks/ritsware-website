@@ -16,7 +16,7 @@ export default function CaseStudyCard({ title, subtitle, summary, tags = [], hre
             </span>
           ))}
         </div>
-        <a href={href} className="text-sm px-3 py-1 rounded-md bg-rits-usaBlue text-white">View</a>
+        <Link to={href} className="text-sm px-3 py-1 rounded-md bg-rits-usaBlue text-white">View</Link>
       </div>
     </article>
   );

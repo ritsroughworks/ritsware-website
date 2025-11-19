@@ -15,7 +15,7 @@ export default function ServiceDetailCard({ title, summary, bullets = [] }) {
         </ul>
       )}
       <div className="mt-4">
-        <a href="/contact" className="inline-block px-4 py-2 rounded-md text-white bg-gradient-to-r from-rits-usaBlue to-rits-mutedRed text-sm">Talk to our experts</a>
+        <Link to="/contact" className="inline-block px-4 py-2 rounded-md text-white bg-gradient-to-r from-rits-usaBlue to-rits-mutedRed text-sm">Talk to our experts</Link>
       </div>
     </article>
   );

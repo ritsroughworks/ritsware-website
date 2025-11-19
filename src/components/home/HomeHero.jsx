@@ -29,19 +29,17 @@ export default function HomeHero() {
             </p>
 
             <div className="flex flex-wrap gap-3 pt-2">
-              <a
-                href="/services"
+              <Link to="/services"
                 className="px-5 py-2.5 rounded-md text-sm font-medium text-white bg-gradient-to-r from-rits-usaBlue to-rits-mutedRed"
               >
                 Explore our services
-              </a>
-              <a
-                href="/contact"
+              </Link>
+              <Link to="/contact"
                 className="px-5 py-2.5 rounded-md text-sm font-medium border theme-transition"
                 style={{ borderColor: "var(--border)", color: "var(--text)" }}
               >
                 Talk to our team
-              </a>
+              </Link>
             </div>
           </div>
 

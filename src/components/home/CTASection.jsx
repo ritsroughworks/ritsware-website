@@ -11,8 +11,8 @@ export default function CTASection() {
             Partner with RITSware to design solutions that are precise, usable, and built for impact.
           </p>
           <div className="mt-6 flex justify-center gap-3">
-            <a href="/contact" className="px-5 py-3 rounded-md text-white bg-gradient-to-r from-rits-usaBlue to-rits-mutedRed">Contact Us</a>
-            <a href="/services" className="px-5 py-3 rounded-md border" style={{ borderColor: "var(--border)", color: "var(--text)" }}>Explore Services</a>
+            <Link to="/contact" className="px-5 py-3 rounded-md text-white bg-gradient-to-r from-rits-usaBlue to-rits-mutedRed">Contact Us</Link>
+            <Link to="/services" className="px-5 py-3 rounded-md border" style={{ borderColor: "var(--border)", color: "var(--text)" }}>Explore Services</Link>
           </div>
         </div>
       </div>
