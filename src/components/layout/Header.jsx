@@ -56,17 +56,17 @@ export default function Header() {
           >
             Our Work
           </Link>
-          <Link
+          {/* <Link
             to="/contact"
             className="theme-transition"
             style={{ color: "var(--text-muted)" }}
           >
             Contact
-          </Link>
+          </Link> */}
 
           {/* CTA Button stays bright */}
           <Link
-            to="/#contact"
+            to="/contact"
             className="ml-4 px-4 py-2 rounded-md text-white bg-gradient-to-r from-rits-usaBlue to-rits-mutedRed"
           >
             Get in touch
@@ -78,3 +78,4 @@ export default function Header() {
     </header>
   );
 }
+
