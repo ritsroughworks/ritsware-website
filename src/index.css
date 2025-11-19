@@ -1,0 +1,85 @@
+/* Tailwind base imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------
+   THEME VARIABLES – single source of truth
+   Light mode = default
+   Dark mode = overrides under html.dark
+---------------------------------------------- */
+
+:root {
+  /* backgrounds */
+  --bg: #F8FAFC;             /* light bg */
+  --surface: #FFFFFF;        /* light card */
+  
+  /* text */
+  --text: #0F172A;
+  --text-muted: #475569;
+  
+  /* brand colors (same for both themes) */
+  --rits-navy: #0A0F1F;
+  --rits-usa-blue: #0A1A4F;
+  --rits-muted-red: #8A1C28;
+
+  /* borders */
+  --border: rgba(0, 0, 0, 0.08);
+
+  /* transitions */
+  --transition-speed: 280ms;
+}
+
+/* DARK THEME */
+html.dark {
+  --bg: #0A0F1F;
+  --surface: rgba(255,255,255,0.03);
+  
+  --text: #E6E6E6;
+  --text-muted: #9CA3AF;
+  
+  --border: rgba(255, 255, 255, 0.06);
+}
+
+/* ---------------------------------------------
+   GLOBAL RESET / BASE
+---------------------------------------------- */
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color var(--transition-speed) ease,
+              color var(--transition-speed) ease;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+/* ---------------------------------------------
+   UTILITIES — theme-adaptive helpers
+---------------------------------------------- */
+
+/* Card surface with blur */
+.card-glass {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(6px);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: background-color var(--transition-speed) ease,
+              border-color var(--transition-speed) ease;
+}
+
+/* Glow overlay for hero / sections */
+.glow-overlay {
+  background-image: radial-gradient(
+    circle at 10% 10%,
+    rgba(255,255,255,0.06),
+    rgba(255,255,255,0)
+  );
+}
+
+/* Smooth color transitions on any element */
+.theme-transition {
+  transition: background-color var(--transition-speed) ease,
+              color var(--transition-speed) ease,
+              border-color var(--transition-speed) ease;
+}
