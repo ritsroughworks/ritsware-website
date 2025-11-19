@@ -1,4 +1,6 @@
 // src/components/work/CaseStudyCard.jsx
+import { Link } from "react-router-dom";
+
 export default function CaseStudyCard({ title, subtitle, summary, tags = [], href = "/work" }) {
   return (
     <article className="p-5 rounded-xl card-glass h-full flex flex-col">

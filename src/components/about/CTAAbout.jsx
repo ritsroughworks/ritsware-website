@@ -1,4 +1,6 @@
-// src/components/about/CTAAbout.jsx
+// src/components/about/CTAAbout.
+import { Link } from "react-router-dom";
+
 export default function CTAAbout() {
   return (
     <section className="mb-12">

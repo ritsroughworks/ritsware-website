@@ -1,4 +1,6 @@
 // src/components/work/CTAWork.jsx
+import { Link } from "react-router-dom";
+
 export default function CTAWork() {
   return (
     <section className="mb-12">

@@ -1,4 +1,7 @@
 // src/components/sections/HomeHero.jsx
+
+import { Link } from "react-router-dom";
+
 export default function HomeHero() {
   return (
     <section className="theme-transition mb-12">
@@ -29,7 +32,8 @@ export default function HomeHero() {
             </p>
 
             <div className="flex flex-wrap gap-3 pt-2">
-              <Link to="/services"
+              <Link 
+                to="/services"
                 className="px-5 py-2.5 rounded-md text-sm font-medium text-white bg-gradient-to-r from-rits-usaBlue to-rits-mutedRed"
               >
                 Explore our services

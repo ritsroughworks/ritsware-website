@@ -1,4 +1,6 @@
 // src/components/services/ServiceDetailCard.jsx
+import { Link } from "react-router-dom";
+
 export default function ServiceDetailCard({ title, summary, bullets = [] }) {
   return (
     <article className="p-6 rounded-xl card-glass">

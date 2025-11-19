@@ -1,4 +1,6 @@
 // src/components/sections/CTASection.jsx
+import { Link } from "react-router-dom";
+
 export default function CTASection() {
   return (
     <section className="mb-12">

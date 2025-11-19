@@ -1,4 +1,6 @@
 // src/components/services/CaseStudiesPreview.jsx
+import { Link } from "react-router-dom";
+
 const caseStudies = [
   { title: "Medzee — Diagnostic kiosk", summary: "A clinical kiosk that surfaces diagnostic workflows and suggestions for staff." },
   { title: "Retail automation", summary: "Automated checkout and inventory assistance using kiosk systems." },
